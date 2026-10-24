@@ -22,6 +22,10 @@ class AppTests(unittest.TestCase):
         for url in ['/no-such-page','/coming-soon/invalid']:
             self.assertEqual(self.client.get(url).status_code,404)
 
+    def test_header_declares_favicon_without_missing_asset(self):
+        response=self.client.get('/')
+        self.assertIn(b'rel="icon"',response.data)
+
     def test_comparison_api(self):
         for kind in ['food','grocery']:
             r=self.client.get('/api/'+kind)

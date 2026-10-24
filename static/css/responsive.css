@@ -1,0 +1,791 @@
+@media (max-width: 359px) {
+  .header-inner {
+    padding: 0 15px;
+    gap: 6px;
+    height: 67px;
+  }
+  .brand {
+    font-size: 21px;
+  }
+  .header-actions {
+    gap: 0;
+  }
+  .icon-button {
+    width: 31px;
+  }
+  .city-control {
+    padding: 6px;
+  }
+  .city-control select {
+    font-size: 11px;
+    width: 61px;
+  }
+  .city-control > .icon:last-child {
+    width: 11px;
+  }
+  .app-main {
+    padding: 22px 16px 120px;
+  }
+  .home-intro h1 {
+    font-size: 26px;
+  }
+  .eyebrow {
+    font-size: 8px;
+  }
+  .quick-grid {
+    gap: 12px;
+  }
+  .quick-card {
+    min-height: 151px;
+  }
+  .recommendations .section-heading h2 {
+    font-size: 16px;
+  }
+  .text-link {
+    font-size: 11px;
+  }
+  .product-body {
+    padding: 16px 11px;
+  }
+  .provider-row {
+    padding: 10px 7px;
+    gap: 6px;
+  }
+  .provider-logo {
+    width: 29px;
+  }
+  .provider-detail strong {
+    font-size: 10px;
+  }
+  .provider-price strong {
+    font-size: 11px;
+  }
+  .add-offer.icon-button {
+    width: 22px;
+  }
+  .category-tab {
+    padding: 8px 13px;
+  }
+  .catalog-toolbar p {
+    font-size: 9px;
+  }
+  .catalog-toolbar .text-link {
+    font-size: 10px;
+  }
+  .profile-person h2 {
+    font-size: 18px;
+  }
+  .avatar {
+    width: 55px;
+    height: 55px;
+  }
+  .membership {
+    padding: 18px;
+  }
+  .membership h2 {
+    font-size: 14px;
+  }
+  .balance-card h2 {
+    font-size: 34px;
+  }
+  .transaction strong {
+    font-size: 10px;
+  }
+  .transaction-list {
+    padding: 0 13px;
+  }
+  .assistant-shell {
+    border-radius: 15px;
+  }
+  .chat-messages {
+    padding: 15px 10px;
+  }
+  .chat-bubble {
+    max-width: 95%;
+  }
+  .cart-item > img {
+    width: 53px;
+    height: 72px;
+  }
+  .cart-item {
+    gap: 9px;
+  }
+  .cart-items {
+    padding: 0 12px;
+  }
+}
+@media (min-width: 600px) {
+  .app-main {
+    padding-top: 36px;
+  }
+  .header-inner {
+    height: 82px;
+  }
+  .brand {
+    font-size: 28px;
+  }
+  .header-actions {
+    gap: 12px;
+  }
+  .header-cart {
+    display: inline-flex;
+  }
+  .city-control {
+    padding: 8px 15px;
+  }
+  .city-control select {
+    font-size: 14px;
+  }
+  .home-intro h1 {
+    font-size: 35px;
+  }
+  .intro-decoration {
+    display: block;
+  }
+  .intro-decoration > .icon {
+    width: 47px;
+    height: 47px;
+    stroke-width: 1;
+  }
+  .search-field {
+    height: 58px;
+  }
+  .search-field input {
+    font-size: 14px;
+  }
+  .search-field kbd {
+    display: block;
+  }
+  .section-caption {
+    display: block;
+  }
+  .quick-card {
+    min-height: 185px;
+  }
+  .quick-icon {
+    width: 61px;
+    height: 61px;
+  }
+  .quick-label {
+    font-size: 19px;
+  }
+  .quick-description {
+    display: block;
+    font-size: 11px;
+    color: #ffffffba;
+    margin-top: 6px;
+  }
+  .quick-status {
+    font-size: 9px;
+    right: 15px;
+    top: 14px;
+  }
+  .recommendation-card {
+    flex: 1 0 29%;
+    min-width: 0;
+  }
+  .recommendation-card > img {
+    height: 150px;
+  }
+  .recommendation-card > div {
+    padding: 16px;
+  }
+  .recommendation-card h3 {
+    font-size: 15px;
+    max-width: 180px;
+  }
+  .recommendation-card > div > .icon {
+    display: block;
+    position: absolute;
+    right: 14px;
+    bottom: 17px;
+    width: 17px;
+    color: #9bb89e;
+  }
+  .home-note {
+    padding-top: 25px;
+  }
+  .home-note strong {
+    font-size: 12px;
+  }
+  .home-note p {
+    font-size: 11px;
+  }
+  .catalog-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+  .catalog-toolbar p {
+    font-size: 12px;
+  }
+  .catalog-toolbar .text-link {
+    font-size: 12px;
+  }
+  .smart-tip {
+    padding: 23px 26px;
+  }
+  .smart-tip p {
+    font-size: 15px;
+  }
+  .sample-notice {
+    font-size: 11px;
+  }
+  .product-image {
+    height: 185px;
+  }
+  .product-body {
+    padding: 16px 12px;
+  }
+  .provider-row {
+    gap: 6px;
+    padding: 11px 7px;
+  }
+  .provider-detail strong {
+    font-size: 10px;
+  }
+  .provider-price strong {
+    font-size: 12px;
+  }
+  .provider-logo {
+    width: 29px;
+  }
+  .future-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+  .coming-banner {
+    padding: 29px 32px;
+  }
+  .coming-banner > p {
+    font-size: 30px;
+  }
+  .coming-banner > small {
+    max-width: 420px;
+  }
+  .profile-layout {
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    gap: 20px;
+  }
+  .profile-person {
+    gap: 11px;
+  }
+  .profile-person h2 {
+    font-size: 18px;
+  }
+  .avatar {
+    width: 54px;
+    height: 54px;
+  }
+  .profile-card {
+    padding: 22px 16px 14px;
+  }
+  .profile-options {
+    max-width: 700px;
+  }
+  .membership {
+    padding: 22px 18px;
+  }
+  .membership h2 {
+    font-size: 14px;
+  }
+  .membership .section-heading {
+    gap: 6px;
+  }
+  .membership .soft-badge {
+    font-size: 8px;
+    padding: 4px 8px;
+  }
+  .membership .points-label {
+    margin-top: 40px;
+  }
+  .wallet-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+    align-items: start;
+  }
+  .payment-methods {
+    margin: 0;
+    padding: 22px 18px;
+  }
+  .wallet-stats {
+    gap: 12px;
+  }
+  .payment-row {
+    padding-top: 20px;
+    padding-bottom: 28px;
+    gap: 8px;
+  }
+  .offer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .offer-tile {
+    gap: 10px;
+  }
+  .offer-tile > img {
+    width: 65px;
+    height: 83px;
+  }
+  .offer-tile h3 {
+    font-size: 13px;
+  }
+  .offer-tile .recommendation-tag {
+    font-size: 9px;
+  }
+  .cart-layout {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 20px;
+    align-items: start;
+  }
+  .cart-summary {
+    margin: 0;
+  }
+  .cart-item > img {
+    width: 55px;
+    height: 75px;
+  }
+  .cart-item-info h2 {
+    font-size: 13px;
+  }
+  .assistant-shell {
+    min-height: 600px;
+  }
+  .chat-messages {
+    min-height: 340px;
+    padding: 27px;
+    max-height: 57dvh;
+  }
+  .chat-bubble {
+    max-width: 80%;
+    font-size: 13px;
+  }
+  .chat-header {
+    padding: 21px 25px;
+  }
+  .chat-header h1 {
+    font-size: 22px;
+  }
+  .chat-header p {
+    font-size: 12px;
+  }
+  .suggestion-chips {
+    padding: 10px 24px 14px;
+  }
+  .chat-form {
+    margin: 0 24px 22px;
+  }
+  .chat-form input {
+    font-size: 13px;
+  }
+  .coming-state {
+    margin: 55px auto;
+  }
+  .coming-state > .button {
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .coming-state h1 {
+    font-size: 35px;
+  }
+}
+@media (min-width: 1000px) {
+  body {
+    font-size: 15px;
+  }
+  .app-main {
+    padding-top: 43px;
+    padding-bottom: 130px;
+  }
+  .header-inner {
+    height: 84px;
+  }
+  .header-actions {
+    gap: 15px;
+  }
+  .city-control {
+    margin-left: auto;
+    margin-right: 40px;
+  }
+  .city-control select {
+    width: 85px;
+  }
+  .home-intro {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .home-intro h1 {
+    font-size: 38px;
+  }
+  .eyebrow {
+    font-size: 10px;
+  }
+  .home-intro p:not(.eyebrow) {
+    font-size: 16px;
+  }
+  .intro-decoration {
+    margin-right: 20px;
+  }
+  .search-wrap {
+    margin-bottom: 35px;
+  }
+  .quick-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 19px;
+  }
+  .quick-card {
+    min-height: 212px;
+    padding-top: 25px;
+  }
+  .quick-icon {
+    width: 63px;
+    height: 63px;
+  }
+  .quick-description {
+    font-size: 10px;
+  }
+  .section-heading {
+    margin-bottom: 19px;
+  }
+  .section-heading h2 {
+    font-size: 20px;
+  }
+  .section-caption {
+    font-size: 12px;
+  }
+  .quick-status {
+    font-size: 8px;
+  }
+  .recommendations {
+    margin-top: 36px;
+  }
+  .recommendation-scroll {
+    gap: 20px;
+  }
+  .recommendation-card {
+    flex: 1;
+    min-width: 0;
+  }
+  .recommendation-card > img {
+    height: 174px;
+  }
+  .recommendation-card > div {
+    padding: 17px 19px 20px;
+  }
+  .recommendation-card h3 {
+    max-width: none;
+    font-size: 16px;
+  }
+  .recommendation-tag {
+    font-size: 11px;
+  }
+  .recommendations .section-heading h2 {
+    font-size: 20px;
+  }
+  .home-note {
+    margin-top: 25px;
+  }
+  .catalog-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 23px;
+  }
+  .product-image {
+    height: 175px;
+  }
+  .product-body {
+    padding: 18px 14px;
+  }
+  .provider-detail strong {
+    font-size: 10px;
+  }
+  .provider-logo {
+    width: 29px;
+    height: 35px;
+  }
+  .provider-price strong {
+    font-size: 11px;
+  }
+  .provider-row {
+    gap: 6px;
+    padding: 10px 7px;
+    min-height: 73px;
+  }
+  .provider-detail > span {
+    font-size: 9px;
+  }
+  .add-offer.icon-button {
+    width: 23px;
+    height: 29px;
+  }
+  .smart-tip {
+    max-width: 100%;
+    padding: 22px 25px;
+  }
+  .smart-tip p {
+    max-width: none;
+  }
+  .tip-label {
+    font-size: 12px;
+  }
+  .page-heading h1 {
+    font-size: 32px;
+  }
+  .page-heading {
+    margin-bottom: 28px;
+  }
+  .future-card {
+    min-height: 220px;
+    padding: 28px;
+  }
+  .future-card h2 {
+    font-size: 24px;
+  }
+  .future-card p {
+    font-size: 14px;
+  }
+  .future-card-top .quick-icon {
+    width: 57px;
+    height: 57px;
+  }
+  .future-card-top {
+    margin-bottom: 24px;
+  }
+  .future-grid {
+    gap: 23px;
+  }
+  .coming-banner {
+    padding: 30px 35px;
+  }
+  .coming-banner > p {
+    font-size: 32px;
+  }
+  .coming-banner > small {
+    font-size: 13px;
+  }
+  .wallet-layout {
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+  }
+  .balance-card {
+    padding: 29px;
+  }
+  .balance-card h2 {
+    font-size: 43px;
+  }
+  .balance-actions button {
+    min-height: 47px;
+  }
+  .wallet-stats article {
+    padding: 22px;
+  }
+  .wallet-stats strong {
+    font-size: 26px;
+  }
+  .payment-methods {
+    padding: 29px;
+  }
+  .payment-methods h2 {
+    font-size: 19px;
+  }
+  .payment-row {
+    padding: 28px 0 35px;
+    gap: 16px;
+  }
+  .payment-row strong {
+    font-size: 14px;
+  }
+  .payment-row small {
+    font-size: 12px;
+  }
+  .payment-row .soft-badge {
+    font-size: 10px;
+  }
+  .visa {
+    font-size: 14px;
+    padding: 12px 11px;
+  }
+  .transaction-section {
+    margin-top: 35px;
+  }
+  .transaction strong {
+    font-size: 13px;
+  }
+  .transaction small {
+    font-size: 11px;
+  }
+  .transaction {
+    padding: 20px 5px;
+  }
+  .profile-layout {
+    gap: 28px;
+  }
+  .profile-card {
+    padding: 30px 25px 20px;
+  }
+  .profile-person h2 {
+    font-size: 24px;
+  }
+  .profile-person p {
+    font-size: 13px;
+  }
+  .avatar {
+    width: 75px;
+    height: 75px;
+  }
+  .profile-person {
+    gap: 18px;
+  }
+  .profile-stats {
+    padding-top: 20px;
+    margin-top: 25px;
+  }
+  .profile-stats strong {
+    font-size: 30px;
+  }
+  .profile-stats span {
+    font-size: 12px;
+  }
+  .membership {
+    padding: 30px;
+  }
+  .membership h2 {
+    font-size: 20px;
+  }
+  .membership .soft-badge {
+    font-size: 10px;
+    padding: 5px 12px;
+  }
+  .membership .points-label {
+    margin-top: 45px;
+  }
+  .points-label {
+    font-size: 14px;
+  }
+  .points-label strong {
+    font-size: 25px;
+  }
+  .membership > small {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  .profile-options > a,
+  .profile-options > button {
+    font-size: 14px;
+    padding: 22px;
+  }
+  .offer-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .offer-tile {
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 14px;
+    position: relative;
+  }
+  .offer-tile > img {
+    width: 100%;
+    height: 140px;
+    border-radius: 12px;
+  }
+  .offer-tile > div {
+    padding: 3px 3px 5px;
+  }
+  .offer-tile h3 {
+    font-size: 16px;
+  }
+  .offer-tile .recommendation-tag {
+    font-size: 10px;
+  }
+  .offer-tile > .icon {
+    position: absolute;
+    right: 17px;
+    bottom: 30px;
+  }
+  .offers-banner h2 {
+    font-size: 35px;
+  }
+  .offers-banner {
+    padding: 30px 34px;
+  }
+  .offers-banner > .icon {
+    right: 55px;
+    width: 160px;
+    height: 160px;
+    bottom: 15px;
+  }
+  .cart-layout {
+    grid-template-columns: 1.5fr 1fr;
+    gap: 28px;
+  }
+  .cart-item > img {
+    width: 85px;
+    height: 95px;
+  }
+  .cart-item-info h2 {
+    font-size: 17px;
+  }
+  .cart-item-info p {
+    font-size: 12px;
+  }
+  .cart-item-info > strong {
+    font-size: 14px;
+  }
+  .cart-items {
+    padding: 0 24px;
+  }
+  .cart-item {
+    gap: 20px;
+    padding: 25px 0;
+  }
+  .cart-summary {
+    padding: 27px;
+  }
+  .cart-summary > div {
+    font-size: 13px;
+  }
+  .cart-summary > p {
+    font-size: 12px;
+  }
+  .cart-summary .button {
+    font-size: 12px;
+  }
+  .checkout-panel {
+    padding: 37px 40px;
+  }
+  .checkout-panel > p {
+    font-size: 13px;
+  }
+  .checkout-summary > div {
+    font-size: 13px;
+  }
+  .bottom-nav {
+    border-top: 1px solid #e5ece5;
+  }
+  .nav-inner {
+    height: 75px;
+    max-width: 590px;
+  }
+  .nav-item {
+    font-size: 11px;
+  }
+  .nav-item .icon {
+    width: 23px;
+    height: 23px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *:before,
+  *:after {
+    transition: none !important;
+    animation: none !important;
+  }
+  .chat-messages {
+    scroll-behavior: auto;
+  }
+}

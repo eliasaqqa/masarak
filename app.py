@@ -30,7 +30,7 @@ def create_app(test_config=None):
         session.setdefault('csrf_token', secrets.token_hex(24))
         if request.method in ('POST', 'PUT', 'PATCH', 'DELETE'):
             token = request.headers.get('X-CSRF-Token', '')
-            if not hmac.compare_digest(token, session['csrf_token']):
+            if not token.isascii() or not hmac.compare_digest(token, session['csrf_token']):
                 return jsonify(error='Your session changed. Refresh the page and try again.'), 403
 
     @app.after_request

@@ -57,6 +57,11 @@ class AppTests(unittest.TestCase):
         for q in [0,-1,100,True,1.5,'bad']:
             self.assertEqual(self.post('/api/cart',{'kind':'food','item_id':'albaik','provider':'Ninja','quantity':q}).status_code,400)
 
+    def test_non_ascii_csrf_token_is_rejected(self):
+        response=self.client.post('/api/cart',json={},headers={'X-CSRF-Token':'é'})
+        self.assertEqual(response.status_code,403)
+        self.assertIn('error',response.json)
+
     def test_assistant_uses_catalog_and_prepares_cart_actions(self):
         r=self.post('/api/assistant',{'message':'I want Al Baik'})
         self.assertEqual(r.status_code,200)

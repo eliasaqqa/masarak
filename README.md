@@ -109,17 +109,13 @@ For development, the app generates a random session signing key at process start
 
 ## Branding and assets
 
-The official logo was visible in the conversation but was not supplied as an accessible file in the workspace. The app does not invent a replacement mark. Place the original PNG at:
+The supplied official Masarak logo is included unchanged at `static/images/logo/masarak.jpg` and used in the shared header and favicon. CSS frames its artwork to avoid displaying the original's large white margins; the source image remains intact. The app also supports `masarak.png` in the same directory (PNG takes precedence).
 
-```text
-static/images/logo/masarak.png
-```
-
-The shared header automatically uses it when present. Until then a plain Masarak wordmark identifies the app. Local SVG food/product illustrations are intentional placeholders, not real provider product photos. Replace each file under `static/images/placeholders/` or change the JSON `image` filename to a matching local asset. Ensure those images exist and provide accessible alt text.
+Local SVG food/product illustrations are intentional placeholders, not real provider product photos. Replace each file under `static/images/placeholders/` or change the JSON `image` filename to a matching local asset. Ensure those images exist and provide accessible alt text.
 
 ## WebView and accessibility
 
-The app includes `viewport-fit=cover`, safe-area padding, touch targets, semantic controls, visible focus states, reduced-motion support, and sufficient content space above fixed navigation. It uses internal navigation, local assets, no popup windows, and no GPS request. The optional manifest supplies name, standalone mode, and theme colors; PWA install icons/offline support await the original brand assets and are not implemented.
+The app includes `viewport-fit=cover`, safe-area padding, touch targets, semantic controls, visible focus states, reduced-motion support, and sufficient content space above fixed navigation. It uses internal navigation, local assets, no popup windows, and no GPS request. The optional manifest supplies name, standalone mode, and theme colors; Dedicated PWA install icons and offline support are not implemented.
 
 ## Validation
 

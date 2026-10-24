@@ -1,3 +1,3 @@
-Place the supplied original Masarak logo here as `masarak.png`.
+# Official Masarak logo
 
-The logo was visible inline in the conversation but no downloadable image file was available in the workspace. The header automatically uses this file when present. Do not substitute a redrawn mark; the current plain wordmark is a temporary fallback.
+`masarak.jpg` is the original uploaded logo, copied unchanged. The shared header and favicon use it automatically. Header CSS frames the artwork without modifying the source image. A replacement `masarak.png` in this directory takes precedence if supplied later.

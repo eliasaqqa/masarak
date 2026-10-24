@@ -49,8 +49,10 @@ def create_app(test_config=None):
 
     @app.context_processor
     def globals_for_templates():
+        logo = next((f'images/logo/masarak.{ext}' for ext in ('png', 'jpg')
+                     if (Path(app.static_folder) / f'images/logo/masarak.{ext}').is_file()), None)
         return {'cart_count': sum(e.get('quantity', 0) for e in session.get('cart', [])),
-                'logo_available': (Path(app.static_folder)/'images/logo/masarak.png').is_file()}
+                'logo_available': bool(logo), 'logo_filename': logo}
 
     def catalogs():
         return {'food':get_food_data(), 'grocery':get_grocery_data()}

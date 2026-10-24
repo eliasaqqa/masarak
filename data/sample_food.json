@@ -1,0 +1,71 @@
+[
+  {
+    "id": "albaik",
+    "restaurant": "Al Baik",
+    "category": "Fast Food",
+    "cuisine": "Fried Chicken",
+    "distance_km": 1.2,
+    "rating": 4.8,
+    "image": "chicken.svg",
+    "providers": [
+      {
+        "name": "HungerStation",
+        "price": 48,
+        "delivery_min": 25,
+        "delivery_max": 35
+      },
+      {
+        "name": "Ninja",
+        "price": 46,
+        "delivery_min": 20,
+        "delivery_max": 30
+      }
+    ]
+  },
+  {
+    "id": "maestro",
+    "restaurant": "Maestro Pizza",
+    "category": "Italian",
+    "cuisine": "Pizza",
+    "distance_km": 2.4,
+    "rating": 4.6,
+    "image": "pizza.svg",
+    "providers": [
+      {
+        "name": "HungerStation",
+        "price": 59,
+        "delivery_min": 25,
+        "delivery_max": 35
+      },
+      {
+        "name": "Ninja",
+        "price": 64,
+        "delivery_min": 20,
+        "delivery_max": 30
+      }
+    ]
+  },
+  {
+    "id": "greens",
+    "restaurant": "Greens & Co.",
+    "category": "Healthy",
+    "cuisine": "Salads & Bowls",
+    "distance_km": 1.8,
+    "rating": 4.7,
+    "image": "salad.svg",
+    "providers": [
+      {
+        "name": "HungerStation",
+        "price": 32,
+        "delivery_min": 25,
+        "delivery_max": 35
+      },
+      {
+        "name": "Ninja",
+        "price": 30,
+        "delivery_min": 20,
+        "delivery_max": 30
+      }
+    ]
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "milk",
+    "name": "Fresh Milk (2L)",
+    "category": "Dairy",
+    "image": "milk.svg",
+    "providers": [
+      {
+        "name": "HungerStation",
+        "price": 12,
+        "delivery_minutes": 30
+      },
+      {
+        "name": "Ninja",
+        "price": 13,
+        "delivery_minutes": 20
+      }
+    ]
+  },
+  {
+    "id": "yogurt",
+    "name": "Greek Yogurt (500g)",
+    "category": "Dairy",
+    "image": "milk.svg",
+    "providers": [
+      {
+        "name": "HungerStation",
+        "price": 18,
+        "delivery_minutes": 30
+      },
+      {
+        "name": "Ninja",
+        "price": 16,
+        "delivery_minutes": 20
+      }
+    ]
+  },
+  {
+    "id": "avocado",
+    "name": "Fresh Avocados (2 pcs)",
+    "category": "Produce",
+    "image": "avocado.svg",
+    "providers": [
+      {
+        "name": "HungerStation",
+        "price": 15,
+        "delivery_minutes": 30
+      },
+      {
+        "name": "Ninja",
+        "price": 13,
+        "delivery_minutes": 20
+      }
+    ]
+  },
+  {
+    "id": "tomatoes",
+    "name": "Cherry Tomatoes (500g)",
+    "category": "Produce",
+    "image": "tomato.svg",
+    "providers": [
+      {
+        "name": "HungerStation",
+        "price": 9,
+        "delivery_minutes": 30
+      },
+      {
+        "name": "Ninja",
+        "price": 10,
+        "delivery_minutes": 20
+      }
+    ]
+  },
+  {
+    "id": "rice",
+    "name": "Basmati Rice (1kg)",
+    "category": "Pantry",
+    "image": "rice.svg",
+    "providers": [
+      {
+        "name": "HungerStation",
+        "price": 22,
+        "delivery_minutes": 30
+      },
+      {
+        "name": "Ninja",
+        "price": 20,
+        "delivery_minutes": 20
+      }
+    ]
+  },
+  {
+    "id": "oil",
+    "name": "Extra Virgin Olive Oil",
+    "category": "Pantry",
+    "image": "oil.svg",
+    "providers": [
+      {
+        "name": "HungerStation",
+        "price": 29,
+        "delivery_minutes": 30
+      },
+      {
+        "name": "Ninja",
+        "price": 32,
+        "delivery_minutes": 20
+      }
+    ]
+  }
+]

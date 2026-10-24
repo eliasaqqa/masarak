@@ -1,0 +1,6 @@
+{% extends 'base.html' %}{% from 'macros.html' import icon, heading, sample_notice, offer_card %}{% block scripts %}<script src="{{ url_for('static',filename='js/comparison.js') }}" defer></script>{% endblock %}{% block content %}
+{{ heading(title,subtitle) }}<aside class="smart-tip"><span class="tip-icon">{{ icon('bulb') }}</span><div><span class="tip-label">Smart Tip</span><p>{{ tip }}</p></div></aside>
+<div class="catalog-toolbar"><p>Comparing <strong>HungerStation</strong> & <strong>Ninja</strong></p><a class="text-link" href="/cart">Your cart {{ icon('bag') }}</a></div>
+{% if kind=='grocery' %}<div class="category-tabs" role="group" aria-label="Filter groceries">{% for cat in ['All Items','Dairy','Produce','Pantry'] %}<button type="button" class="category-tab {{ 'selected' if loop.first else '' }}" aria-pressed="{{ 'true' if loop.first else 'false' }}" data-category="{{ cat }}">{{ cat }}</button>{% endfor %}</div>{% endif %}
+{{ sample_notice() }}<div class="catalog-grid">{% for item in items %}{{ offer_card(item,kind) }}{% else %}<div class="empty-state">{{ icon('search') }}<h2>No comparisons yet</h2><p>New items will appear here when data is available.</p></div>{% endfor %}</div>
+{% endblock %}

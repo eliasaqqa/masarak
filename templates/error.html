@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% from 'macros.html' import icon %}{% block content %}<section class="empty-state error-state"><span class="error-code">{{ code }}</span><h1>{{ title }}</h1><p>{{ message }}</p><a class="button primary" href="/">Back to Home {{ icon('arrow-right') }}</a></section>{% endblock %}

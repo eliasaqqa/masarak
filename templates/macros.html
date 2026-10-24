@@ -1,0 +1,11 @@
+{% macro icon(name, cls='') %}<svg class="icon {{ cls }}" aria-hidden="true"><use href="{{ url_for('static', filename='images/icons.svg') }}#{{ name }}"></use></svg>{% endmacro %}
+{% macro heading(title, subtitle='', back=true) %}{% if back %}<a class="back-link" href="/">{{ icon('arrow-left') }} Back</a>{% endif %}<div class="page-heading"><h1>{{ title }}</h1>{% if subtitle %}<p>{{ subtitle }}</p>{% endif %}</div>{% endmacro %}
+{% macro sample_notice() %}<p class="sample-notice">{{ icon('info') }} Sample data · Illustrative prices, not live offers</p>{% endmacro %}
+{% macro offer_card(item, kind) %}
+<article class="product-card" data-category="{{ item.category }}">
+ <div class="product-image"><img src="{{ url_for('static',filename='images/placeholders/' ~ item.image) }}" alt="Illustration of {{ item.title }}" loading="lazy">{% if kind=='food' %}<span class="image-label rating">{{ icon('star') }} {{ item.rating }}</span>{% else %}<span class="image-label">{{ item.category }}</span>{% endif %}<span class="image-sample">Sample item</span></div>
+ <div class="product-body"><h2>{{ item.title }}</h2>{% if kind=='food' %}<p class="item-description">{{ item.category }} <span>·</span> {{ item.cuisine }} <span>·</span> {{ item.distance_km }} km</p>{% endif %}
+ <div class="provider-list">{% for provider in item.providers %}<div class="provider-row {% if provider.is_best %}best{% endif %} {% if not provider.available %}unavailable{% endif %}"><span class="provider-logo {{ 'hungerstation' if provider.name=='HungerStation' else 'ninja' }}">{{ 'H' if provider.name=='HungerStation' else 'n' }}</span><div class="provider-detail"><strong>{{ provider.name }}</strong><span>{{ provider.delivery if provider.available else 'Currently unavailable' }}</span></div><div class="provider-price"><strong>{% if provider.available %}SAR {{ provider.price|sar }}{% else %}—{% endif %}</strong>{% if provider.is_best %}<span>Best Price</span>{% endif %}</div>{% if provider.available %}<button class="add-offer icon-button" type="button" aria-label="Add {{ item.title }} from {{ provider.name }} to cart" data-kind="{{ kind }}" data-item="{{ item.id }}" data-provider="{{ provider.name }}">{{ icon('plus') }}</button>{% endif %}</div>{% else %}<p class="muted">No offers available right now.</p>{% endfor %}</div>
+ </div>
+</article>
+{% endmacro %}
